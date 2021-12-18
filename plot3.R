@@ -41,7 +41,7 @@ Sys.setlocale(category = "LC_ALL", locale = "english")
 
 plot(datasel$datetime,datasel$Sub_metering_1, col = "black", type = "l",
      xlab = "",
-     ylab = "Energy Submettering")
+     ylab = "Energy sub metering")
 lines(datasel$datetime,datasel$Sub_metering_2, col = "red", type = "l")
 lines(datasel$datetime,datasel$Sub_metering_3, col = "blue", type = "l")
 legend("topright",lty = 1, col= c("black","red","blue"), 
